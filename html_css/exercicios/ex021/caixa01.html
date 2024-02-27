@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Modelo de Caixas</title>
+
+    <style>
+        h1 {
+            height: 300px;
+            width: 300px;
+            background-color: lightgray;
+
+            /*Handshort border: width style color*/
+            border: 10px solid darkgreen;
+
+            /*Handshort padding: top right bottom left
+              Caso todos os valores sejam iguais basta coloca-lo uma única vez
+              Caso tenha apenas dois valores o 1° será aplicado ao top e bottom e i 2º para right e left
+            */
+            padding: 10px;
+
+            /*Handshort margin: top right bottom left
+              Caso todos os valores sejam iguais basta coloca-lo uma única vez
+              Caso tenha apenas dois valores o 1° será aplicado ao top e bottom e i 2º para right e left
+              Caso queira centralizar horizontalmente basta colocar auto para o 2° e 4° valor
+            */
+            margin: 20px auto 40px auto;
+
+            /*Handshort outline: width style color*/        
+            outline: 5px dashed salmon;
+        }
+
+        a {
+            border: 10px solid red;
+            padding: 10px
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Exemplos de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver tudo isso</p>
+</body>
+</html>

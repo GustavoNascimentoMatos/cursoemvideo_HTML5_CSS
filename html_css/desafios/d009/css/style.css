@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+div#video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+a#voltar {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+}
