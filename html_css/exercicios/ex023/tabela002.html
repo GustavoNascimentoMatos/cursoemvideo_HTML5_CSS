@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+        
+        tr > th {
+            background-color: gray;
+            color: white;
+            border: 2px solid black;
+        }
+
+        td, th {
+            border: 1px solid gray;
+            padding: 2px 5px 2px 10px;
+        }
+
+        td.direita {
+            text-align: right;
+        }
+
+        td.pos {
+            width: 0px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>Unidade fererativa</th>
+                <th>Sigla</th>
+                <th>População</th>
+                <th>% da pop. total</th>
+                <th>País comparável (habitantes)</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr><td class="pos">1<td>São Paulo<td>SP<td class="direita">44411238<td class="direita">21.88%<td>Argentina (46621847)</tr>
+            <tr><td class="pos">2<td>Minas Gerais<td>MG<td class="direita">20538718<td class="direita">10.11%<td>Argentina (46621847)</tr>
+            <tr><td class="pos">3<td>Rio de Janeiro<td>RJ<td class="direita">16054524<td class="direita">7.91%<td>Argentina (46621847)</tr>
+            <tr><td class="pos">4<td>Bahia<td>BA<td class="direita">14141626<td class="direita">6.96%<td>Argentina (46621847)</tr>
+            <tr><td class="pos">5<td>Paraná<td>PR<td class="direita">11444380<td class="direita">5.64%<td>Argentina (46621847)</tr>
+            <tr><td class="pos">6<td>Rio Grande do Sul<td>RS<td class="direita">10882965<td class="direita">5.36%<td>Argentina (46621847)</tr>
+            <tr><td class="pos">7<td>Pernambuco<td>PR<td class="direita">9058931<td class="direita">4.46%<td>Argentina (46621847)</tr>
+            <tr><td class="pos">8<td>Ceará<td>CE<td class="direita">8794957<td class="direita">4.33%<td>Argentina (46621847)</tr>
+            <tr><td class="pos">9<td>Pará<td>PA<td class="direita">8121025<td class="direita">4.1%<td>Argentina (46621847)</tr>
+            <tr><td class="pos">10<td>Santa Catarina<td>SC<td class="direita">7610361<td class="direita">3.75%<td>Argentina (46621847)</tr>
+            <tr><td class="pos">11<td>Goiás<td>GO<td class="direita">7056495<td class="direita">3.47%<td>Argentina (46621847)</tr>
+            <tr><td class="pos">12<td>Maranhão<td>MA<td class="direita">6775805<td class="direita">3.34%<td>Argentina (46621847)</tr>
+            <tr><td class="pos">13<td>Paraíba<td>PB<td class="direita">3974687<td class="direita">1.96%<td>Geórgia (3989167)</tr>
+            <tr><td class="pos">14<td>Amazonas<td>SP<td class="direita">3941613<td class="direita">1.94%<td>Geórgia (3989167)</tr>
+            <tr><td class="pos">15<td>Espírito Santo<td>ES<td class="direita">3833712<td class="direita">1.89%<td>Geórgia (3989167)</tr>
+            <tr><td class="pos">16<td>Mato Grosso<td>MA<td class="direita">3302729<td class="direita">1.8%<td>Geórgia (3989167)</tr>
+            <tr><td class="pos">17<td>Rio Grande do Norte<td>RN<td class="direita">3271199<td class="direita">1.63%<td>Argentina (46621847)</tr>
+            <tr><td class="pos">18<td>Piauí<td>PI<td class="direita">3271199<td class="direita">1.61%<td>Argentina (46621847)</tr>
+            <tr><td class="pos">19<td>Alagoas<td>AL<td class="direita">3127683<td class="direita">1.54%<td>Argentina (46621847)</tr>
+            <tr><td class="pos">20<td>Distrito Federal<td>DF<td class="direita">2817381<td class="direita">1.39%<td>Argentina (46621847)</tr>
+            <tr><td class="pos">21<td>Mato Grosso do Sul<td>MT<td class="direita">2757013<td class="direita">1.36%<td>Argentina (46621847)</tr>
+            <tr><td class="pos">22<td>Sergipe<td>SE<td class="direita">2209558<td class="direita">1.09%<td>Argentina (46621847)</tr>
+            <tr><td class="pos">23<td>Rondônia<td>RO<td class="direita">1581196<td class="direita">0.78%<td>Argentina (46621847)</tr>
+            <tr><td class="pos">24<td>Tocantins<td>TO<td class="direita">1511460<td class="direita">0.74%<td>Argentina (46621847)</tr>
+            <tr><td class="pos">25<td>Acre<td>AC<td class="direita">830018<td class="direita">0.41%<td>Argentina (46621847)</tr>
+            <tr><td class="pos">26<td>Amapá<td>AP<td class="direita">733759<td class="direita">0.36%<td>Argentina (46621847)</tr>
+            <tr><td class="pos">27<td>Roraima<td>RR<td class="direita">636707<td class="direita">0.31%<td>Argentina (46621847)</tr>
+        </tbody>
+
+        <tfoot>
+        </tfoot>
+
+    </table>
+</body>
+</html>
