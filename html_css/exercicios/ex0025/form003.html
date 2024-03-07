@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="id_nome">Nome:</label>
+            <input type="text" name="n_nome" id="id_nome" placeholder="Nome Completo" autocomplete="name" required>
+        </p>
+        <p>
+            <label for="id_nota">Nota:</label>
+            <input type="number" name="n_nota" id="id_nota" min="0" max="10" placeholder="0 a 10" step="0.5" value="5" required>
+        </p>
+        <p>
+            <label for="d_mes">Período Letivo</label>
+            <input type="month" name="n_mes" id="id_mes" value="2024-03">
+        </p>
+        <p>
+            <label for="id_data">Dia da Prova</label>
+            <input type="date" name="n_date" id="id_date">
+        </p>
+        <p>
+            <label for="id_hora">Hora da Prova</label>
+            <input type="time" name="n_time" id="id_time">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
