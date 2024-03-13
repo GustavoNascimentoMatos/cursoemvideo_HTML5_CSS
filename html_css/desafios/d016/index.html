@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="_css/style.css">
     <link rel="stylesheet" href="_css/media-queries.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Login</title>
 </head>
 <body>
@@ -17,11 +18,25 @@
             <div id="formulario">
                 <h1 id="log">Matos Barber Shop</h1>
                 <p id="log">Bem-vindo! Faça login para acessar sua conta!</p>
-                <form action="login" method="post">
-
+                <form action="login" method="post" autocomplete="off">
+                    <div class="campo">
+                        <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">person</i>
+                        <input type="email" name="n_email" id="id_login" placeholder=" Email" autocomplete="email" required>
+                        <label for="id_login"></label>
+                    </div>
+                    <div class="campo">
+                        <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">vpn_key</i>
+                        <input type="password" name="n_pass" id="id_pass" placeholder=" Senha" autocomplete="current-password" required minlength="8" maxlength="20">
+                        <label for="id_pass"></label>
+                    </div>
+                    <input type="submit" name="Entrar" id="id_btn_entrar" value="Entrar">
+                    <p class="botao"><a href="#" class="botao">Esqueci a senha</a> | <a href="#" class="botao">Me cadastrar</a></p>
                 </form>
             </div>
         </section>
+
     </main>
+
+    
 </body>
 </html>

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
 
 /*  Paleta de cores:
     Verde: #49a09d
@@ -13,7 +14,10 @@
 }
 
 body, html {
-    background-color: rgba(121, 64, 64, 0.651);
+    /*background-color: darkgrey;*/
+    /*background-color: rgba(121, 64, 64, 0.651);*/
+    /*background-image: linear-gradient(to right, brown, rgba(121, 64, 64, 0.651));*/
+    background-image: linear-gradient(to right, #8D423C, #F4BA95);
     width: 100vw;
     height: 100vh;   
 }
@@ -29,17 +33,24 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(121, 64, 64, 0.651);
+
+    /*background-image: linear-gradient(to right, brown, rgba(121, 64, 64, 0.651));*/
+    /*background-color: rgba(121, 64, 64, 0.651);*/
+    /*background-color: darkgrey;*/
     width: 100vw;
     height: 100vh;
     color: white;
 }
 
 h1#log {
+    font-family: "Rye", serif;
     padding: 10px 5px 2px 10px;
+    text-shadow: 2px 2px 2px black;
 }
 p#log {
     padding: 8px 5px 2px 10px;
+    margin-bottom: 30px;
+    
 }
 
 section#login > div#imagem {
@@ -49,8 +60,67 @@ section#login > div#imagem {
     background-size: cover;
     height: 300px;
     margin-top: -1px;
+    border-bottom: 4px solid saddlebrown;
 }
 
 section#login > div#formulario {
     display: block;
+}
+
+form > input[type=submit] {
+    display: block;
+    color: black;
+    border: none;
+    font-size: 1.5em;
+    width: 50%;
+    margin: auto;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+
+form > input[type=submit]:hover {
+    background-color: bisque;
+}
+
+input {
+    height: 50px;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+    margin-left: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+i {
+    font-size: 3em;
+}
+
+div.campo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin: 10px 0px;
+}
+
+a.botao {
+    
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+
+p.botao {
+    margin-top: 60px;
+    text-align: center;
+}
+
+a.botao:hover {
+    color: lightgrey;
+    text-decoration: underline;
 }

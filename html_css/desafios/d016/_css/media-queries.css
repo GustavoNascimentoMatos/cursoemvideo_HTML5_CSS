@@ -2,11 +2,11 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body, html {
-        background-image: linear-gradient(to right, brown, rgba(121, 64, 64, 0.651));
+        background-image: linear-gradient(to right, #381D08, #F6D4CB);
     }
 
     section#login {
-        background-image: linear-gradient(to right, brown, rgba(121, 64, 64, 0.651));
+        background-image: linear-gradient(to right, #381D08, #F6D4CB);
     }
 
     section#login > div#imagem {
@@ -26,11 +26,11 @@
 
 @media screen and (min-width: 993px) {
     body, html {
-        background-image: linear-gradient(to right, brown, rgba(121, 64, 64, 0.651));
+        background-image: linear-gradient(to right, #D01121, #C89D58);
     }
 
     section#login {
-        background-image: linear-gradient(to right, brown, rgba(121, 64, 64, 0.651));
+        background-image: linear-gradient(to right, #D01121, #C89D58);
     }
 
     section#login > div#imagem {
